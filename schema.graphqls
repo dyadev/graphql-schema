@@ -1,0 +1,10 @@
+type Query{
+getAll(id:Int!):[Stand]
+}
+
+type Stand{
+id:Int!
+name:String!
+source:String
+viewAt:Int
+}
